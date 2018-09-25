@@ -1,0 +1,70 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 25vh;
+}
+
+.piano {
+  display: flex;
+  min-width: 35vw;
+  max-width: 35vw;
+  height: auto;
+}
+
+.key {
+  flex: 1;
+  min-height: 30vh;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+#cKey.key:hover {
+  background-color: orange;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+#dKey.key:hover {
+  background-color: dodgerblue;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+#eKey.key:hover {
+  background-color: green;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+#fKey.key:hover {
+  background-color: purple;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+#gKey.key:hover {
+  background-color: teal;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+#aKey.key:hover {
+  background-color: palegreen;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+#bKey.key:hover {
+  background-color: hotpink;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: whitesmoke;
+}
